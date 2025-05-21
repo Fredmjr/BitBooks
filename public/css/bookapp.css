@@ -1,0 +1,154 @@
+body{
+    background: #001827;
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.bookCard{
+    width: 18%;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;  
+}
+#bookListAll{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center; 
+}
+.cardImg{
+    background: #001d2f;
+    height: 150px;
+    border-radius: 3px;
+}
+
+#naviBar{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: solid 0.5px rgb(3, 53, 84) ; 
+}
+#menuBar{
+    position:relative;
+}
+#dropdownmMenu{
+    display: none;
+    position:absolute;
+    z-index: 10;
+   top: 25px;
+    right:0px;
+     padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 0.5px rgb(3, 53, 84);
+    background: #001d2f; 
+    border-radius: 3px;
+}
+#breakerBar{
+     width: 100%; height: 0.5px; 
+   background:rgb(3, 53, 84);
+}
+#BurgarBtn{
+    cursor: pointer; ;
+}
+.menuFeat{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    cursor: pointer; 
+    color: white;
+}
+.menuFeat:hover{
+   color: #ff7246;
+}
+
+.linkCss{
+    text-decoration: none;
+    color: white;
+}
+#searchPanel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #001d2f;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+        width: 80%;
+        height: 40px;
+}
+#searcBtn{
+     width: 10%;
+        background:rgb(1, 43, 69);
+        height: 100%;
+        display: flex;
+    align-items: center;    
+    background: #ff7246;          
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#searchInputBar{
+        width: 87%;
+        background:rgb(1, 43, 69);
+        height: 100%;
+        display: flex;
+    align-items: center;
+border-radius: 3px;
+}
+
+#searchInput::placeholder{
+    color:rgba(255, 255, 255, 0.5);
+}
+#searchInput{
+    background:transparent;     
+    color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+
+     padding-right: 15px;
+    padding-left: 15px;
+}
+
+#bibooksSite{
+    color: #ff7246;
+    margin-bottom: -15px;
+}
+#started{
+        font-size: 18px;
+}
+#searchCategory{
+   text-align: center;    
+   padding-top: 15px;
+    padding-bottom: 10px;
+}
+#bookPrice{
+    color: #ff7246;
+    margin-top: -20px;
+}
+#bookTitle{
+        font-size: 18px;
+       margin-top: 10px; 
+}
+
+
+
